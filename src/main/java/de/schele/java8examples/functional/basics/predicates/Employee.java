@@ -18,22 +18,29 @@ public class Employee {
 	private String lastName;
 
 	// Please generate Getter and Setters
+	public Integer getId() {
+		return id;
+	}
+	
 	public Integer getAge() {
 		return age;
 	}
 
 	public String getGender() {
 		return gender;
+	}	
+
+	public String getFirstName() {
+		return firstName;
 	}
+
+	public String getLastName() {
+		return lastName;
+	}	
 
 	@Override
 	public String toString() {
-		return this.id.toString() + " - " + this.age.toString(); // To change
-																	// body of
-																	// generated
-																	// methods,
-																	// choose
-																	// Tools |
-																	// Templates.
+		// To change body of generated methods, choose Tools | Templates.
+		return this.getId().toString() + " - " + this.getAge().toString(); 
 	}
 }
