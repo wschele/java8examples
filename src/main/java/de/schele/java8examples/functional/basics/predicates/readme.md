@@ -1,2 +1,2 @@
-<u>see:<BR/></u>
+<u>see:</u><BR/>
 http://howtodoinjava.com/java-8/how-to-use-predicate-in-java-8/
